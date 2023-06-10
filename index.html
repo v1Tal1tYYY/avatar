@@ -1,136 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <title>avatar</title>
-</head>
-<body>
-    <div class="content">
-        <header>
-            <div class="header">
-            <img src="./imgs/logo.png" alt="logo" class="logo">
-            <ul>
-                <li>
-                    <a href="#" class="link">Головна</a>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Avatar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:wght@300;400;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-main">
+          <nav>
+            <div class="header-left">
+              <img src="./imgs/logo.svg" alt="logo" class="logo"/>
+
+              <ul class="listt">
+                <li class="nav-list">
+                  <a href="index.html" class="nav-p">Головна</a>
                 </li>
-                <li>
-                    <a href="#" class="link">Про нас</a>
+                <li class="nav-list">
+                  <a href="#" class="nav-p">Про нас</a>
                 </li>
-                <li>
-                    <a href="#" class="link">Контакти</a>
+                <li class="nav-list">
+                  <a href="#" class="nav-p">Контакти</a>
                 </li>
-            </ul>
-            <button type="button">Увійти</button>
-            <img src="./imgs/switch.png" alt="swither">
+              </ul>
+
             </div>
-        </header>
-        <main>
-            <section>
-            <ul>
-                <li>
-                    <p></p>
-                </li>
-                <li>
-                    <img src="./imgs/arrow.svg" alt="arrow">
-                </li>
-                <li>
-                    <p></p>
-                </li>
-                <li>
-                    <button type="button">Приєднатися до<br> клану</button>
-                </li>
+          </nav>
+          <button type="button" class="button">Увійти</button>
+          <div class="header-right">
+            <p class="eng">ENG</p>
+            <img src="./imgs/switcher.png" alt="switcher"/>
+            <p class="ua">UA</p>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-left">
+            <p class="hero-p">
+              Oe perlltxe hu tsamsiyu! <br/>
+              Ngari hu Eywa salew tirea, <br/>
+              tokx 'ì'awn slu Na'viyä hapxì. Säwem nìayoeng!
+            </p>
+
+            <div class="arrow"></div>
+
+            <p class="trans">
+              Хоробрий воїне, звертаюсь до тебе! <br/>
+              Твій дух йде з Ейвою, <br/>
+              твоє тіло залишається, <br/>
+              щоб стати частиною Народу. <br/>
+              Борись разом з нами!
+            </p>
+
+            <button type="button" class="hero-button">Приєднатися до<br/>клану</button>
+          </div>
+
+          <div class="hero-right">
+            <a href="#"><img src="./imgs/inst.svg" alt="Instagram" class="inst"/></a>
+            <a href="#"><img src="./imgs/twit.svg" alt="Twitter" class="twit"/></a>
+            <a href="#"><img src="./imgs/yt.svg" alt="Youtube" class="yt"/></a>
+          </div>
+        </section>
+
+        <section class="blockquote">
+          <blockquote class="blackquote">
+            “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ<br/>
+            ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” <br/>
+            <cite class="cite">Джейк Саллі</cite>
+          </blockquote>
+        </section>
+
+        <section class="trailer">
+          <div class="div-button">
+            <button type="button" class="trailer-button">Дивитись трейлер</button>
+          </div>
+        </section>
+
+        <section class="blockquote">
+          <blockquote class="blackquote">
+            “ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ<br />
+            ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”<br />
+            <cite class="cite">Джейк Саллі</cite>
+          </blockquote>
+        </section>
+
+        <section class="lang">
+          <div class="cont">
+            <h4 class="h4">Вчимо мову На’ві</h4>
+            <ul class="knowledge">
+              <li class="list">
+                <p class="text">Привіт</p>
+                <p class="fat">Kaltxì</p>
+              </li>
+              <li class="list">
+                <p class="text">Як справи?</p>
+                <p class="fat">Ngaru lu fpom srak?</p>
+              </li>
+              <li class="list">
+                <p class="text">Все добре</p>
+                <p class="fat">Lu fpom</p>
+              </li>
+              <li class="list">
+                <p class="text">Дякую</p>
+                <p class="fat">Irayo si</p>
+              </li>
+              <li class="list">
+                <p class="text">Я бачу тебе</p>
+                <p class="fat">Oel ngati kameie</p>
+              </li>
+              <li class="list">
+                <p class="text">Слідуй за мною!</p>
+                <p class="fat">Nong oet!</p>
+              </li>
             </ul>
-            </section>
-            <ul>
-                <li>
-                    <img src="./imgs/inst.svg" alt="social">
-                </li>
-                <li>
-                    <img src="./imgs/twit.svg" alt="social">
-                </li>
-                <li>
-                    <img src="./imgs/yt.svg" alt="social">
-                </li>
-            </ul>
-            <section>
-                <q>“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ<br>ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” </q>
-                <cite>Джейк Саллі</cite>
-                <img src="./imgs/citate.svg" alt="citate">
-            </section>
-            <section>
-                <button type="button"></button>
-            </section>
-            <section>
-                <q>“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ<br>ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</q>
-                <cite>Джейк Саллі</cite>
-                <img src="./imgs/citate.svg" alt="citate">
-            </section>
-            <section>
-                <h4>Вчимо мову На’ві</h4>
-                <ul>
-                    <li>
-                        <p>Привіт</p>
-                        <img src="./imgs/leftarrow.svg" alt="leftarrow">
-                        <b></b>
-                    </li>
-                    <li>
-                        <p>Як справи?</p>
-                        <img src="./imgs/center.svg" alt="center">
-                        <b></b>
-                    </li>
-                    <li>
-                        <p>Все добре</p>
-                        <img src="./imgs/rightarrow.svg" alt="rightarrow">
-                        <b></b>
-                    </li>
-                    <li>
-                        <p>Дякую</p>
-                        <img src="./imgs/leftarrow.svg" alt="leftarrow">
-                        <b></b>
-                    </li>
-                    <li>
-                        <p>Я бачу тебе</p>
-                        <img src="./imgs/center.svg" alt="center">
-                        <b></b>
-                    </li>
-                    <li>
-                        <p>Слідуй за мною!  </p>
-                        <img src="./imgs/rightarrow.svg" alt="rightarrow">
-                        <b></b>
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <q>“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,<br>ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</q>
-                <cite>Джейк Саллі</cite>
-                <img src="./imgs/citate.svg" alt="citate">
-            </section>
-        </main>
-        <footer>
-            <div>
-                <div>
-                <img src="./imgs/logo.png" alt="logo">
-                <div>
-                    <p></p>
-                    <div></div>
-                    <a href="mailto:avatartwowqa@gmail.com">avatartwowqa@gmail.com</a>
-                </div>
-                <div>
-                    <p></p>
-                    <div></div>
-                    <a href="mailto:avatartwowcoop@gmail.com">avatartwowcoop@gmail.com</a>
-                </div>
-                </div>
-                <p>©2023 Avatar: The Way Of Water. All rights reserved</p>
-            </div>
-        </footer>
+          </div>
+        </section>
+
+        <section class="blockquote">
+          <blockquote class="blackquote">
+            “НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,<br />
+            ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.” <br />
+            <cite class="cite">Нейтірі</cite>
+          </blockquote>
+        </section>
+      </main>
+      </main>
+      <footer class="sec-footer">
+        <section class="footer">
+          <img src="./imgs/logo.svg" alt="Avatar" class="footer-logo"/>
+          <img src="./imgs/line.svg" alt="Line" class="line"/>
+          <ul class="ul">
+            <li class="email">
+              <p class="qname">Q&A E-mail</p>
+              <div class="border-line"></div>
+              <a href="mailto:avatartwowqa@gmail.com" class="qname">avatartwowqa@gmail.com </a>
+            </li>
+            <li class="coop-email">
+              <p class="qname">Cooperation E-mail</p>
+              <div class="border-line-2"></div>
+              <a href="mailto:avatartwowcoop@gmail.com" class="qname">avatartwowcoop@gmail.com </a>
+            </li>
+            <li>
+              <p class="last">
+                ©2023 Avatar: The Way Of Water. All rights reserved
+              </p>
+            </li>
+          </ul>
+        </section>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
