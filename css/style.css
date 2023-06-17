@@ -35,7 +35,7 @@ img, button{
 .header-left{
     display: flex;
     justify-content: space-between;
-    width: 520px;
+    width: 680px;
 }
 
 .logo{
@@ -84,7 +84,8 @@ img, button{
 }
 .button{
     display: block;
-    margin-left: 212px;
+    margin-left: 180px;
+    margin-right: 49px;
     width: 65px;
     height: 25px;
     font-family: 'Headland One',sans-serif;
@@ -141,7 +142,7 @@ img, button{
 
 .hero-left{
     padding: 180px 0 0 204px;
-    width: 376px;
+    width: 579px;
 }
 
 .hero-p{
@@ -202,13 +203,13 @@ img, button{
 }
 
 .inst{
-    padding-left: 20px;
-    padding-bottom: 24px;
+    margin-left: 20px;
+    margin-bottom: 24px;
 }
 
 .twit{
-    padding-left: 16px;
-    padding-bottom: 27px;
+    margin-left: 16px;
+    margin-bottom: 27px;
 }
 
 .blackquote{
@@ -305,11 +306,6 @@ img, button{
     height: 240px;
     background: rgba(255, 255, 255, 0.7);
 }
-
-.list:not(:nth-child(n+4)){
-    margin-bottom: 24px
-}
-
 .text:nth-child(1){
     margin-bottom: 40px;
 }
@@ -403,9 +399,12 @@ img, button{
 }
 
 .border-line{
-    border: 2px dashed #FFFFFF;
+    background-image: url(../imgs/bottomvector.svg);
     width: 269px;
-    height: 0px;
+    height: 2.5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
 
 .coop-email{
@@ -417,9 +416,9 @@ img, button{
 }
 
 .border-line-2{
+    background-image: url(../imgs/againvector.svg);
     width: 194px;
-    height: 0px; 
-    border: 2px dashed #FFFFFF;
+    height: 2.5px;
 }
 
 .last{
