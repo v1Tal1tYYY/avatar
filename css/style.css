@@ -236,7 +236,7 @@ img, button{
 
 .blackquote>cite::after{
     content: '';
-    padding-top: 8px;
+    margin-top: 8px;
     display: block;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -368,9 +368,7 @@ img, button{
 }
 
 .footer-logo{
-    margin: 74px 80px 76px 204px;
-    width: 183px;
-    height: 70px;
+    padding: 77px 80px 76px 204px;
 }
 
 .line{
@@ -421,9 +419,7 @@ img, button{
 
 .last{
     display: flex;
-    margin: 37px 414px 25px 211px;
-    width: 348px;
-    height: 17px;
+    padding: 37px 414px 25px 211px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
