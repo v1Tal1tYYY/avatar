@@ -78,6 +78,15 @@ img, button{
     line-height: 24px;
     color: #94CFFF;
 }
+.nav-p:focus{
+    color:#2196F3;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #94CFFF;
+}
 .nav-list a {
     text-decoration: none;
     color: #FFFFFF;
