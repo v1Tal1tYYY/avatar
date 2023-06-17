@@ -383,7 +383,6 @@ img, button{
 .email{
     display: flex;
     align-items: center;
- 
     width: 665px;
     margin: 80px 228px 16px 80px;
 }
@@ -423,7 +422,7 @@ img, button{
 
 .last{
     display: flex;
-   margin: 37px 414px 25px 211px;
+    margin: 37px 414px 25px 211px;
     width: 348px;
     height: 17px;
     font-family: 'Inter';
@@ -441,6 +440,4 @@ ul,h4, p{
     margin: 0 auto;
     width: 1032px;
 }
-.ul{
-    margin-left: 160px;
-}
+
