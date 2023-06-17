@@ -160,7 +160,6 @@ img, button{
 .arrow{
     display: flex;
     margin-left: 53px;
-    box-sizing: border-box;
     background-image: url('../imgs/arrow.svg');
     width: 152px;
     height: 40px;
