@@ -14,7 +14,7 @@ img, button{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image:linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url('../imgs/hbg.jpg') ;
+    background-image:linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url('../imgs/hbg.jpg')  ;
     position: sticky;
     top: 0;
 }
@@ -143,230 +143,80 @@ img, button{
     align-items: center;
     margin-right:48px ;
 }
-.hero{
-    display: flex;
-    justify-content: space-between;
-    background-image: url(../imgs/herobg.jpg);
-    width: 1440px;
-    height: 740px; 
-}
-
-.hero-left{
-    padding: 180px 0 0 204px;
-    width: 579px;
-}
-
-.hero-p{
-    display: flex;
-    width: 298px;
-    height: 96px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
-
-.arrow{
-    display: flex;
-    margin-left: 53px;
-    background-image: url('../imgs/arrow.svg');
-    width: 152px;
-    height: 40px;
-}
-
-.trans{
-    display: flex;
-    width: 376px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
-
-.hero-button{
-    margin-top: 42px;
-    font-family: 'Headland One',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
-    width: 260px;
-    height: 80px;
-    color: #26C7EA;
-    background: #0B0E66;
-    border: 3px solid #26C7EA;
-    border-radius: 45px 0px;
-}
-
-.hero-right{
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-    width: 50px;
-    height: 141px;
-    margin: 300px 204px 299px 606px;
-}
-
-.inst{
-    margin-left: 20px;
-    margin-bottom: 24px;
-}
-
-.twit{
-    margin-left: 16px;
-    margin-bottom: 27px;
-}
-
-.blackquote{
-    padding: 75px 0 10px;
-    margin: 0;
-    text-align: center;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 1.22;
-    color: #0A3853;
-}
-
-.cite{
-    display: block;
-    font-family: 'Inter',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    margin-top: 16px;
-    line-height: 1.20;
-    color: black;
-}
-
-.blackquote>cite::after{
-    content: '';
-    margin-top: 8px;
-    display: block;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    width: 400px;
-    height: 120px;
-    background-image: url('../imgs/cite.svg');
-}
-.trailer{
-    display: flex;
-    width: 1440px;
-    height: 741px;
-    background: url('../imgs/trailerbg.jpg');
-}
-.div-button{
-    display: flex;
-    padding: 330px 590px;
-}
-.trailer-button{
-    font-family: 'Headland One',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
-    color: #26C7EA;
-    box-sizing: border-box;
-    width: 260px;
-    height: 80px;
-    background: #0B0E66;
-    border: 3px solid #26C7EA;
-    border-radius: 45px 0px;
-}
-
-.lang{
-    padding:58px 0 57px ;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('../imgs/kbg.jpg');
-}
-
-.h4{
-    text-align: center;
-    margin-bottom: 45px;
-    font-family: 'Headland One', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 1.25;
-    color: #141414;
-}
-
-.knowledge{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
-    gap: 24px;
-    width: 1032px;
-    height: 504px; 
-}
-
-.list{
-    padding: 36px 0; 
+.img{
     width: 320px;
-    height: 240px;
-    background: rgba(255, 255, 255, 0.7);
-}
-.text:nth-child(1){
-    margin-bottom: 40px;
-}
-
-.list:nth-child(3n+1)>.text:nth-child(1)::after{
+    height: 381px;
+    object-fit:cover;
     display: block;
-    content: '';
-    width: 152px;
-    height: 40px;
-    background-image: url('../imgs/larrow.svg');
-    margin: 40px auto;
+    border-radius: 40px;
 }
-
-.list:nth-child(3n+2)>.text:nth-child(1)::after{
-    display: block;
-    content: '';
-    width: 152px;
+.fb{
+    width: 40px;
     height: 40px;
-    background-image: url('../imgs/center.svg');
-    margin: 40px auto;
 }
-
-.list:nth-child(3n+3)>.text:nth-child(1)::after{
-    display: block;
-    content: '';
-    width: 152px;
-    height: 40px;
-    background-image: url('../imgs/rarrow.svg');
-    margin: 40px auto;
+.section{
+    height: 1300px;
+    background-image:radial-gradient(circle, rgba(54,82,106,1) 0%, rgba(19,22,28,0.12228641456582634) 100%), url(../imgs/herobg.jpg);
 }
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1250px;
+    background: rgb(90,93,84);
+    background: radial-gradient(circle, rgba(90,93,84,1) 0%, rgba(172,171,164,1) 100%);
+    border-radius: 30px;
+    height: 1100px;
+    padding: 30px 0;
 
-.text{
-    font-family: 'Headland One', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1;
-    text-align: center;
+}
+.card{
+    margin:auto;
+    width: 320px;
+    height: 500px;
+    background: rgb(90,93,84);
+    background: linear-gradient(90deg, rgba(90,93,84,1) 0%, rgba(172,171,164,1) 100%);
+    border-radius: 40px;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.291);
+}
+p{
     color: #141414;
-}
-
-.fat{
-    font-family: 'HeadlandOne';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
     text-align: justify;
-    color: #000000;
-    text-align: center;
+    font-size: 24px;
+    font-family: HeadlandOne;
+    line-height: 24px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
 }
-
+ul,h4, p{
+    padding: 0;
+    margin: 0;
+}
+h4{
+    color: antiquewhite;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 300;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    padding-top: 10px;
+    color: #09354e;
+}
+.pocket{
+    width: 300px;
+    height: 50px;
+    margin: 0 auto 10px;
+}
 .footer{
     width: 1440px;
     height: 223px;
@@ -438,12 +288,3 @@ img, button{
     line-height: 17px;
     color: #FFFFFF;
 }
-ul,h4, p{
-    padding: 0;
-    margin: 0;
-}
-.content{
-    margin: 0 auto;
-    width: 1032px;
-}
-
